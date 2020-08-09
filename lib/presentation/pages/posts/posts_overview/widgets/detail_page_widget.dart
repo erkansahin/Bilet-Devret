@@ -73,7 +73,7 @@ class DetailPage extends StatelessWidget implements AutoRouteWrapper {
 
                       ExtendedNavigator.of(context).popUntil((route) =>
                           route.settings.name == Routes.postsOverviewPage);
-                      //TODO: Fix that the messages are not shown
+
                       postActorBloc.state.maybeMap(
                           deleteSuccess: (_) => FlushbarHelper.createSuccess(
                               message: AppLocalizations.of(context).translate(
@@ -113,7 +113,8 @@ class DetailPage extends StatelessWidget implements AutoRouteWrapper {
                 Container()
             ],
           ),
-          body: Column(
+          body: SingleChildScrollView(
+              child: Column(
             children: <Widget>[
               Align(
                 alignment: Alignment.bottomLeft,
@@ -121,7 +122,8 @@ class DetailPage extends StatelessWidget implements AutoRouteWrapper {
                   padding: const EdgeInsets.all(16.0),
                   child: Text(
                     post.title,
-                    style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                    style: const TextStyle(
+                        fontSize: 24, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
@@ -175,7 +177,7 @@ class DetailPage extends StatelessWidget implements AutoRouteWrapper {
                 ],
               ),
               const Padding(
-                padding:  EdgeInsets.all(4.0),
+                padding: EdgeInsets.all(4.0),
                 child: Divider(
                   thickness: 0.4,
                   color: Colors.grey,
@@ -189,7 +191,8 @@ class DetailPage extends StatelessWidget implements AutoRouteWrapper {
                   padding: const EdgeInsets.all(16.0),
                   child: Text(
                     AppLocalizations.of(context).translate('explanation'),
-                    style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold),
+                    style: const TextStyle(
+                        fontSize: 18, fontWeight: FontWeight.bold),
                   ),
                 ),
               ),
@@ -208,7 +211,7 @@ class DetailPage extends StatelessWidget implements AutoRouteWrapper {
                 ),
               ),
             ],
-          ),
+          )),
           floatingActionButton: currentUserID != post.creatorID
               ? FloatingActionButton(
                   onPressed: () {
