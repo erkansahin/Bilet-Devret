@@ -1,4 +1,14 @@
 # Bilet Devret
+<img src="https://github.com/erkansahin/Bilet-Devret/blob/master/assets/images/app_logo.png" width="256" height="256">
+
+Some screens from the app:
+
+<p align="center">
+  <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/post_overview.png" width="270" height="555">
+  <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/detail_page.png" width="270" height="555">
+  <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/chat_overview.png" width="270" height="555">
+
+</p>
  
 Suppose you want to go to a concert. It appears that all the tickets are sold out; so, you won't be able to go to the event. With our platform, you can look for posts on Bilet Devret and buy the ticket from someone who is not able to go to the event. In this way, you can buy a ticket that you normally cannot buy.
 
