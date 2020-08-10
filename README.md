@@ -4,8 +4,11 @@
 Some screens from the app:
 
 <p align="center">
+  <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/splash_page.png" width="270" height="555">
+  <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/register.png" width="270" height="555">
   <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/post_overview.png" width="270" height="555">
   <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/detail_page.png" width="270" height="555">
+  <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/chat_page.png" width="270" height="555">
   <img src="https://github.com/erkansahin/Bilet-Devret/blob/master/screens/chat_overview.png" width="270" height="555">
 
 </p>
